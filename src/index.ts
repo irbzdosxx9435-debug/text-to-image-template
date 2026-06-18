@@ -5,8 +5,8 @@ export default {
 		} satisfies AiTextToImageInput;
 
 		const response =
-			await env.AI.run<"@cf/runwayml/stable-diffusion-v1-5-img2img">(
-				"@cf/runwayml/stable-diffusion-v1-5-img2img",
+			await env.AI.run<"@cf/stabilityai/stable-diffusion-xl-base-1.0">(
+				"@cf/stabilityai/stable-diffusion-xl-base-1.0",
 				inputs,
 			);
 
