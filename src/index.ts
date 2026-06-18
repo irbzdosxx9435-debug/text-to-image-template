@@ -6,7 +6,7 @@ export default {
 
 		const response =
 			await env.AI.run<"@cf/stabilityai/stable-diffusion-xl-base-1.0">(
-				"@cf/stabilityai/stable-diffusion-xl-base-1.0",
+				"@cf/runwayml/stable-diffusion-v1-5-img2img",
 				inputs,
 			);
 
